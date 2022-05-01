@@ -10,19 +10,23 @@ namespace EmployeeWageProblem
     {
         static void Main(string[] args)
         {
-            int Empispresent = 1;
+            int EmpisFullTime = 1;
+            int EmpRatePerhr = 20;
+            int EmpHRS = 0;
+            int EmpWAGE = 0;
             Random rand = new Random();
             int RandomCheck = rand.Next(2);
-            if (Empispresent == RandomCheck)
+            if (RandomCheck == EmpisFullTime)
             {
-                Console.WriteLine("Employee is present ");
-                Console.ReadLine();
+                EmpHRS = 8;
             }
             else
             {
-                Console.WriteLine("Employee is abscent");
-                Console.ReadLine();
+                EmpHRS = 0;
             }
+            EmpWAGE = EmpHRS * EmpRatePerhr;
+            Console.WriteLine("Emp wage:" + EmpWAGE);
+            Console.ReadLine();
         }
     }
 }
