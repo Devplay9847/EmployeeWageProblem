@@ -10,8 +10,19 @@ namespace EmployeeWageProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage problem Case UC1 ,UC2,UC3");
-            Console.ReadLine();
+            int Empispresent = 1;
+            Random rand = new Random();
+            int RandomCheck = rand.Next(2);
+            if (Empispresent == RandomCheck)
+            {
+                Console.WriteLine("Employee is present ");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Employee is abscent");
+                Console.ReadLine();
+            }
         }
     }
 }
