@@ -10,22 +10,27 @@ namespace EmployeeWageProblem
     {
         static void Main(string[] args)
         {
-            int EmpisFullTime = 1;
-            int EmpRatePerhr = 20;
-            int EmpHRS = 0;
-            int EmpWAGE = 0;
-            Random rand = new Random();
-            int RandomCheck = rand.Next(2);
-            if (RandomCheck == EmpisFullTime)
+            int Parttime = 1;
+            int Fulltime = 2;
+            int EmpRatePERHR = 20;
+            int Emphr = 0;
+            int Empwage = 0;
+            Random random = new Random();
+            int RandomCheck = random.Next(0, 2);
+            if (RandomCheck == Parttime)
             {
-                EmpHRS = 8;
+                Emphr = 4;
+            }
+            else if (RandomCheck == Fulltime)
+            {
+                Emphr = 8;
             }
             else
             {
-                EmpHRS = 0;
+                Emphr = 0;
             }
-            EmpWAGE = EmpHRS * EmpRatePerhr;
-            Console.WriteLine("Emp wage:" + EmpWAGE);
+            Empwage = Emphr * EmpRatePERHR;
+            Console.WriteLine("EMP wage :" + Empwage);
             Console.ReadLine();
         }
     }
