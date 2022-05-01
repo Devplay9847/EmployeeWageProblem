@@ -1,0 +1,8 @@
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\bin\Debug\EmployeeWageProblem.exe.config
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\bin\Debug\EmployeeWageProblem.exe
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\bin\Debug\EmployeeWageProblem.pdb
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\obj\Debug\EmployeeWageProblem.csproj.AssemblyReference.cache
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\obj\Debug\EmployeeWageProblem.csproj.SuggestedBindingRedirects.cache
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\obj\Debug\EmployeeWageProblem.csproj.CoreCompileInputs.cache
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\obj\Debug\EmployeeWageProblem.exe
+F:\C SHARP PROJECTS\bridgelab\EmployeeWageProblem\EmployeeWageProblem\obj\Debug\EmployeeWageProblem.pdb
